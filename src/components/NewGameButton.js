@@ -1,10 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import NewGameButton from '../components/NewGameButton'
+import Title from '..components/Title'
 
 class NewGameButton extends Component {
 
 
-  handleClick = () => { this.props.newGame(wordToGuess)}
+  handleClick = () => { this.props.newGame(word)}
 
   render() {
 

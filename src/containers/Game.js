@@ -1,14 +1,20 @@
+import React, {PureComponent} from 'react'
 import { connect } from 'react-redux'
-// import components later and also the Game.css
+import NewGameButton from '../components/NewGameButton'
 
-class GameContainer extends Component {
+// import components later and also the Game.css
+import UserInput from '../components/UserInput'
+import Title from '../components/Title'
+import Word from '../components/Word'
+
+class Game extends PureComponent {
   render() {
     return (
       <div className="Game">
       <Word />
         <div id="flexBox">
-          <SubmitGuess />
-          <Statbox />
+          <Title />
+          <Word />
         </div>
         <NewGameButton />
       </div>

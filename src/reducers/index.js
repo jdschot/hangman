@@ -4,8 +4,8 @@ import wrongGuesses from './wrongGuesses'
 import showGuesses from './showGuesses'
 
 export default {
-  newGame
-  correctGuesses
-  wrongGuesses
+  newGame,
+  correctGuesses,
+  wrongGuesses,
   showGuesses
 }
